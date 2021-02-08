@@ -1,7 +1,7 @@
 import click
 
 @click.command()
-@click.optoin("--name")
+@click.option("--name")
 def hello(name):
     click.echo(f'Hello {name}')
     
