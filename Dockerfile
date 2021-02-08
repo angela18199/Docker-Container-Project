@@ -12,4 +12,4 @@ RUN pip install --upgrade pip &&\
     pip install --trusted-host pypi.python.org -r requirements.txt
 
 # Run app.py at container launch
-CMD ["python", "app.py"]
+#CMD ["python", "app.py"]
